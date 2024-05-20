@@ -5,7 +5,30 @@
   text-align: center;
 }
 
+form {
+  margin: 34.304px 0px;
+}
+
 input {
   font-size: large;
   padding: 5px;
+}
+
+.light {
+  position: relative;
+  padding: 50px;
+}
+
+.dark {
+  position: relative;
+  padding: 50px;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.btn {
+  border-color: #242424;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
 }
