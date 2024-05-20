@@ -16,13 +16,10 @@ function App() {
 
   return (
     <>
-      <h1>ควรดื่มน้ำวันละเท่าไหร่ ?</h1>
+      <h1 >ควรดื่มน้ำวันละเท่าไหร่ ?</h1>
       <h1>{result} มล.</h1>
-      <form onSubmit={handleSubmit(waterCal)} onChange={handleSubmit(waterCal)}>
+      <form onChange={handleSubmit(waterCal)}>
         <input {...register('weight')} type="number" placeholder='น้ำหนังของคุณ (กิโลกรัม)' />
-        <br />
-        <br />
-        <input type="submit" value="คำนวน" />
       </form>
     </>
   )
